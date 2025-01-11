@@ -1034,7 +1034,7 @@ parseFloat(document.getElementById('rp1r20').value) +
 parseFloat(document.getElementById('rp1r21').value) +
 parseFloat(document.getElementById('rp1r22').value) +
 parseFloat(document.getElementById('rp1r23').value) +
-parseFloat(document.getElementById('rp1r24').value)
+parseFloat(document.getElementById('rp1r24').value);
 document.getElementById('tp1').innerHTML = tp1;
 }
 function calctotal2(){
@@ -1303,3 +1303,247 @@ parseFloat(document.getElementById('rp6r19').value)
 ;
 document.getElementById('tp6').innerHTML = tp6;
 }
+
+function calctotalhalf1(){
+    var tp1 = 0;
+    tp1 = tp1 + 
+    parseFloat(document.getElementById('rp1r1').value) + 
+    parseFloat(document.getElementById('rp1r3').value) +
+    parseFloat(document.getElementById('rp1r5').value) +
+    parseFloat(document.getElementById('rp1r7').value) +
+    parseFloat(document.getElementById('rp1r10').value) +
+    parseFloat(document.getElementById('rp1r12').value) +
+    parseFloat(document.getElementById('rp1r14').value) +
+    parseFloat(document.getElementById('rp1r16').value) +
+    parseFloat(document.getElementById('rp1r18').value) +
+    parseFloat(document.getElementById('rp1r19').value) +
+    parseFloat(document.getElementById('rp1r20').value) +
+    parseFloat(document.getElementById('rp1r21').value) +
+    parseFloat(document.getElementById('rp1r22').value) +
+    parseFloat(document.getElementById('rp1r23').value)
+;
+    document.getElementById('tp1').innerHTML = tp1;
+    }
+    function calctotalhalf2(){
+        var tp2 = 0;
+        tp2 = tp2 + 
+        parseFloat(document.getElementById('rp2r1').value) + 
+        parseFloat(document.getElementById('rp2r3').value) +
+        parseFloat(document.getElementById('rp2r5').value) +
+        parseFloat(document.getElementById('rp2r7').value) +
+        parseFloat(document.getElementById('rp2r10').value) +
+        parseFloat(document.getElementById('rp2r12').value) +
+        parseFloat(document.getElementById('rp2r14').value) +
+        parseFloat(document.getElementById('rp2r16').value) +
+        parseFloat(document.getElementById('rp2r18').value) +
+        parseFloat(document.getElementById('rp2r19').value) +
+        parseFloat(document.getElementById('rp2r20').value) +
+        parseFloat(document.getElementById('rp2r21').value) +
+        parseFloat(document.getElementById('rp2r22').value) +
+        parseFloat(document.getElementById('rp2r23').value)
+    ;
+        document.getElementById('tp2').innerHTML = tp2;
+        }
+        function calctotalhalf3(){
+            var tp3 = 0;
+            tp3 = tp3 + 
+            parseFloat(document.getElementById('rp3r1').value) + 
+            parseFloat(document.getElementById('rp3r3').value) +
+            parseFloat(document.getElementById('rp3r5').value) +
+            parseFloat(document.getElementById('rp3r7').value) +
+            parseFloat(document.getElementById('rp3r10').value) +
+            parseFloat(document.getElementById('rp3r12').value) +
+            parseFloat(document.getElementById('rp3r14').value) +
+            parseFloat(document.getElementById('rp3r16').value) +
+            parseFloat(document.getElementById('rp3r18').value) +
+            parseFloat(document.getElementById('rp3r19').value) +
+            parseFloat(document.getElementById('rp3r20').value) +
+            parseFloat(document.getElementById('rp3r21').value) +
+            parseFloat(document.getElementById('rp3r22').value) +
+            parseFloat(document.getElementById('rp3r23').value)
+        ;
+            document.getElementById('tp3').innerHTML = tp3;
+            }
+            function calctotalhalf4(){
+                var tp4 = 0;
+                tp4 = tp4 + 
+                parseFloat(document.getElementById('rp4r1').value) + 
+                parseFloat(document.getElementById('rp4r3').value) +
+                parseFloat(document.getElementById('rp4r5').value) +
+                parseFloat(document.getElementById('rp4r7').value) +
+                parseFloat(document.getElementById('rp4r10').value) +
+                parseFloat(document.getElementById('rp4r12').value) +
+                parseFloat(document.getElementById('rp4r14').value) +
+                parseFloat(document.getElementById('rp4r16').value) +
+                parseFloat(document.getElementById('rp4r18').value) +
+                parseFloat(document.getElementById('rp4r19').value) +
+                parseFloat(document.getElementById('rp4r20').value) +
+                parseFloat(document.getElementById('rp4r21').value) +
+                parseFloat(document.getElementById('rp4r22').value) +
+                parseFloat(document.getElementById('rp4r23').value)
+            ;
+                document.getElementById('tp4').innerHTML = tp4;
+                }
+                function calctotalhalf5(){
+                    var tp5 = 0;
+                    tp5 = tp5 + 
+                    parseFloat(document.getElementById('rp5r1').value) + 
+                    parseFloat(document.getElementById('rp5r3').value) +
+                    parseFloat(document.getElementById('rp5r5').value) +
+                    parseFloat(document.getElementById('rp5r7').value) +
+                    parseFloat(document.getElementById('rp5r10').value) +
+                    parseFloat(document.getElementById('rp5r12').value) +
+                    parseFloat(document.getElementById('rp5r14').value) +
+                    parseFloat(document.getElementById('rp5r16').value) +
+                    parseFloat(document.getElementById('rp5r18').value) +
+                    parseFloat(document.getElementById('rp5r19').value) +
+                    parseFloat(document.getElementById('rp5r20').value) +
+                    parseFloat(document.getElementById('rp5r21').value) +
+                    parseFloat(document.getElementById('rp5r22').value) +
+                    parseFloat(document.getElementById('rp5r23').value)
+                ;
+                    document.getElementById('tp5').innerHTML = tp5;
+                    }
+function calctotalhalf6player1(){
+    var tp1 = 0;
+tp1 = tp1 + 
+parseFloat(document.getElementById('rp1r1').value) + 
+parseFloat(document.getElementById('rp1r2').value) +
+parseFloat(document.getElementById('rp1r3').value) +
+parseFloat(document.getElementById('rp1r4').value) +
+parseFloat(document.getElementById('rp1r5').value) +
+parseFloat(document.getElementById('rp1r6').value) +
+parseFloat(document.getElementById('rp1r7').value) +
+parseFloat(document.getElementById('rp1r8').value) +
+parseFloat(document.getElementById('rp1r9').value) +
+parseFloat(document.getElementById('rp1r10').value) +
+parseFloat(document.getElementById('rp1r11').value) +
+parseFloat(document.getElementById('rp1r12').value) +
+parseFloat(document.getElementById('rp1r13').value) +
+parseFloat(document.getElementById('rp1r14').value) +
+parseFloat(document.getElementById('rp1r15').value) +
+parseFloat(document.getElementById('rp1r16').value) +
+parseFloat(document.getElementById('rp1r17').value) +
+parseFloat(document.getElementById('rp1r18').value) +
+parseFloat(document.getElementById('rp1r19').value)
+;
+document.getElementById('tp1').innerHTML = tp1;
+}
+function calctotalhalf6player2(){
+    var tp2 = 0;
+tp2 = tp2 + 
+parseFloat(document.getElementById('rp2r1').value) + 
+parseFloat(document.getElementById('rp2r2').value) +
+parseFloat(document.getElementById('rp2r3').value) +
+parseFloat(document.getElementById('rp2r4').value) +
+parseFloat(document.getElementById('rp2r5').value) +
+parseFloat(document.getElementById('rp2r6').value) +
+parseFloat(document.getElementById('rp2r7').value) +
+parseFloat(document.getElementById('rp2r8').value) +
+parseFloat(document.getElementById('rp2r9').value) +
+parseFloat(document.getElementById('rp2r10').value) +
+parseFloat(document.getElementById('rp2r11').value) +
+parseFloat(document.getElementById('rp2r12').value) +
+parseFloat(document.getElementById('rp2r13').value) +
+parseFloat(document.getElementById('rp2r14').value) +
+parseFloat(document.getElementById('rp2r15').value) +
+parseFloat(document.getElementById('rp2r16').value) +
+parseFloat(document.getElementById('rp2r17').value) +
+parseFloat(document.getElementById('rp2r18').value) +
+parseFloat(document.getElementById('rp2r19').value)
+;
+document.getElementById('tp2').innerHTML = tp2;
+}
+function calctotalhalf6player3(){
+    var tp3 = 0;
+tp3 = tp3 + 
+parseFloat(document.getElementById('rp3r1').value) + 
+parseFloat(document.getElementById('rp3r2').value) +
+parseFloat(document.getElementById('rp3r3').value) +
+parseFloat(document.getElementById('rp3r4').value) +
+parseFloat(document.getElementById('rp3r5').value) +
+parseFloat(document.getElementById('rp3r6').value) +
+parseFloat(document.getElementById('rp3r7').value) +
+parseFloat(document.getElementById('rp3r8').value) +
+parseFloat(document.getElementById('rp3r9').value) +
+parseFloat(document.getElementById('rp3r10').value) +
+parseFloat(document.getElementById('rp3r11').value) +
+parseFloat(document.getElementById('rp3r12').value) +
+parseFloat(document.getElementById('rp3r13').value) +
+parseFloat(document.getElementById('rp3r14').value) +
+parseFloat(document.getElementById('rp3r15').value) +
+parseFloat(document.getElementById('rp3r16').value) +
+parseFloat(document.getElementById('rp3r17').value) +
+parseFloat(document.getElementById('rp3r18').value) +
+parseFloat(document.getElementById('rp3r19').value)
+;
+document.getElementById('tp3').innerHTML = tp3;
+}
+function calctotalhalf6player4(){
+    var tp4 = 0;
+tp4 = tp4 + 
+parseFloat(document.getElementById('rp4r1').value) + 
+parseFloat(document.getElementById('rp4r2').value) +
+parseFloat(document.getElementById('rp4r3').value) +
+parseFloat(document.getElementById('rp4r4').value) +
+parseFloat(document.getElementById('rp4r5').value) +
+parseFloat(document.getElementById('rp4r6').value) +
+parseFloat(document.getElementById('rp4r7').value) +
+parseFloat(document.getElementById('rp4r8').value) +
+parseFloat(document.getElementById('rp4r9').value) +
+parseFloat(document.getElementById('rp4r10').value) +
+parseFloat(document.getElementById('rp4r11').value) +
+parseFloat(document.getElementById('rp4r12').value) +
+parseFloat(document.getElementById('rp4r13').value) +
+parseFloat(document.getElementById('rp4r14').value) +
+parseFloat(document.getElementById('rp4r15').value) +
+parseFloat(document.getElementById('rp4r16').value) +
+parseFloat(document.getElementById('rp4r17').value) +
+parseFloat(document.getElementById('rp4r18').value) +
+parseFloat(document.getElementById('rp4r19').value)
+;
+document.getElementById('tp4').innerHTML = tp4;
+}
+function calctotalhalf6player5(){
+    var tp5 = 0;
+tp5 = tp5 + 
+parseFloat(document.getElementById('rp5r1').value) + 
+parseFloat(document.getElementById('rp5r2').value) +
+parseFloat(document.getElementById('rp5r3').value) +
+parseFloat(document.getElementById('rp5r4').value) +
+parseFloat(document.getElementById('rp5r5').value) +
+parseFloat(document.getElementById('rp5r6').value) +
+parseFloat(document.getElementById('rp5r7').value) +
+parseFloat(document.getElementById('rp5r8').value) +
+parseFloat(document.getElementById('rp5r9').value) +
+parseFloat(document.getElementById('rp5r10').value) +
+parseFloat(document.getElementById('rp5r11').value) +
+parseFloat(document.getElementById('rp5r12').value) +
+parseFloat(document.getElementById('rp5r13').value) +
+parseFloat(document.getElementById('rp5r14').value) +
+parseFloat(document.getElementById('rp5r15').value) +
+parseFloat(document.getElementById('rp5r16').value) +
+parseFloat(document.getElementById('rp5r17').value) +
+parseFloat(document.getElementById('rp5r18').value) +
+parseFloat(document.getElementById('rp5r19').value)
+;
+document.getElementById('tp5').innerHTML = tp5;
+}
+function calctotalhalf6player6(){
+    var tp6 = 0;
+tp6 = tp6 + 
+parseFloat(document.getElementById('rp6r1').value) + 
+parseFloat(document.getElementById('rp6r3').value) +
+parseFloat(document.getElementById('rp6r5').value) +
+parseFloat(document.getElementById('rp6r7').value) +
+parseFloat(document.getElementById('rp6r8').value) +
+parseFloat(document.getElementById('rp6r9').value) +
+parseFloat(document.getElementById('rp6r10').value) +
+parseFloat(document.getElementById('rp6r12').value)+
+parseFloat(document.getElementById('rp6r14').value) +
+parseFloat(document.getElementById('rp6r16').value) +
+parseFloat(document.getElementById('rp6r18').value) +
+parseFloat(document.getElementById('rp6r19').value)
+;
+document.getElementById('tp6').innerHTML = tp6;
+}                    
