@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Honeymoon Bridge Calculator</h1>
+    <table>
+ <tr>
+    <th></th>
+    <th colspan="3"><input type="number" required placeholder="player1" id="inputname"></th>
+    <th colspan="3"><input type="number" required placeholder="player2" id="inputname"></th>
+    <th colspan="3"><input type="number" required placeholder="player3" id="inputname"></th>
+    <th colspan="3"><input type="number" required placeholder="player4" id="inputname"></th>
+<th></th>
+ </tr>
+ <tr>
+    <th></th>
+   <th>Guess</th>
+   <th>Packs</th>
+   <th colspan="1">Score</th>
+   <th>Guess</th>
+   <th>Packs</th>
+   <th colspan="1">Score</th>
+   <th>Guess</th>
+   <th>Packs</th>
+   <th colspan="1">Score</th>
+   <th>Guess</th>
+   <th>Packs</th>
+   <th colspan="1">Score</th>
+<th></th>
+</tr>
+<tr>
+    <th>1</th>
+<td><input type="number" required id="gp1r1" class="g"></td>
+<td><input type="number" required id="pp1r1" class="p"></td>
+<td><input type="number" required id="rp1r1" class="r" value="0"></td>
+<td><input type="number" required id="gp2r1" class="g"></td>
+<td><input type="number" required id="pp2r1" class="p"></td>
+<td><input type="number" required id="rp2r1" class="r" value="0"></td>
+<td><input type="number" required id="gp3r1" class="g"></td>
+<td><input type="number" required id="pp3r1" class="p"></td>
+<td><input type="number" required id="rp3r1" class="r" value="0"></td>
+<td><input type="number" required id="gp4r1" class="g"></td>
+<td><input type="number" required id="pp4r1" class="p"></td>
+<td><input type="number" required id="rp4r1" class="r" value="0"></td>
+<td><button onclick="calcr1p1(); calcr1p2(); calcr1p3(); calcr1p4(); calcr1p5(); calcr1p6()" class="s">Submit</button></td>
+</tr>
+
+<tr>
+    <th>3</th>
+    <td><input type="number" required id="gp1r3" class="g"></td>
+    <td><input type="number" required id="pp1r3" class="p"></td>
+    <td><input type="number" required id="rp1r3" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r3" class="g"></td>
+    <td><input type="number" required id="pp2r3" class="p"></td>
+    <td><input type="number" required id="rp2r3" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r3" class="g"></td>
+    <td><input type="number" required id="pp3r3" class="p"></td>
+    <td><input type="number" required id="rp3r3" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r3" class="g"></td>
+    <td><input type="number" required id="pp4r3" class="p"></td>
+    <td><input type="number" required id="rp4r3" class="r" value="0"></td>
+    <td><button onclick="calcr3p1(); calcr3p2(); calcr3p3(); calcr3p4(); calcr3p5(); calcr3p6()" class="s">Submit</button></td>
+</tr>
+
+<tr>
+    <th>5</th>
+    <td><input type="number" required id="gp1r5" class="g"></td>
+    <td><input type="number" required id="pp1r5" class="p"></td>
+    <td><input type="number" required id="rp1r5" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r5" class="g"></td>
+    <td><input type="number" required id="pp2r5" class="p"></td>
+    <td><input type="number" required id="rp2r5" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r5" class="g"></td>
+    <td><input type="number" required id="pp3r5" class="p"></td>
+    <td><input type="number" required id="rp3r5" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r5" class="g"></td>
+    <td><input type="number" required id="pp4r5" class="p"></td>
+    <td><input type="number" required id="rp4r5" class="r" value="0"></td>
+    <td><button onclick="calcr5p1(); calcr5p2(); calcr5p3(); calcr5p4(); calcr5p5(); calcr5p6()" class="s">Submit</button></td>
+</tr>
+
+<tr>
+    <th>7</th>
+    <td><input type="number" required id="gp1r7" class="g"></td>
+    <td><input type="number" required id="pp1r7" class="p"></td>
+    <td><input type="number" required id="rp1r7" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r7" class="g"></td>
+    <td><input type="number" required id="pp2r7" class="p"></td>
+    <td><input type="number" required id="rp2r7" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r7" class="g"></td>
+    <td><input type="number" required id="pp3r7" class="p"></td>
+    <td><input type="number" required id="rp3r7" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r7" class="g"></td>
+    <td><input type="number" required id="pp4r7" class="p"></td>
+    <td><input type="number" required id="rp4r7" class="r" value="0"></td>
+    <td><button onclick="calcr7p1(); calcr7p2(); calcr7p3(); calcr7p4(); calcr7p5(); calcr7p6()" class="s">Submit</button></td>
+</tr>
+
+<tr>
+    <th>9</th>
+    <td><input type="number" required id="gp1r20" class="g"></td>
+    <td><input type="number" required id="pp1r20" class="p"></td>
+    <td><input type="number" required id="rp1r20" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r20" class="g"></td>
+    <td><input type="number" required id="pp2r20" class="p"></td>
+    <td><input type="number" required id="rp2r20" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r20" class="g"></td>
+    <td><input type="number" required id="pp3r20" class="p"></td>
+    <td><input type="number" required id="rp3r20" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r20" class="g"></td>
+    <td><input type="number" required id="pp4r20" class="p"></td>
+    <td><input type="number" required id="rp4r20" class="r" value="0"></td>
+    <td><button onclick="calcr20p1(); calcr20p2(); calcr20p3(); calcr20p4(); calcr20p5(); calcr20p6()" class="s">Submit</button></td>
+</tr>
+<tr>
+    <th>10</th>
+    <td><input type="number" required id="gp1r21" class="g"></td>
+    <td><input type="number" required id="pp1r21" class="p"></td>
+    <td><input type="number" required id="rp1r21" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r21" class="g"></td>
+    <td><input type="number" required id="pp2r21" class="p"></td>
+    <td><input type="number" required id="rp2r21" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r21" class="g"></td>
+    <td><input type="number" required id="pp3r21" class="p"></td>
+    <td><input type="number" required id="rp3r21" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r21" class="g"></td>
+    <td><input type="number" required id="pp4r21" class="p"></td>
+    <td><input type="number" required id="rp4r21" class="r" value="0"></td>
+    <td><button onclick="calcr21p1(); calcr21p2(); calcr21p3(); calcr21p4(); calcr21p5(); calcr21p6()" class="s">Submit</button></td>
+</tr>
+<tr>
+    <th>10X</th>
+    <td><input type="number" required id="gp1r22" class="g"></td>
+    <td><input type="number" required id="pp1r22" class="p"></td>
+    <td><input type="number" required id="rp1r22" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r22" class="g"></td>
+    <td><input type="number" required id="pp2r22" class="p"></td>
+    <td><input type="number" required id="rp2r22" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r22" class="g"></td>
+    <td><input type="number" required id="pp3r22" class="p"></td>
+    <td><input type="number" required id="rp3r22" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r22" class="g"></td>
+    <td><input type="number" required id="pp4r22" class="p"></td>
+    <td><input type="number" required id="rp4r22" class="r" value="0"></td>
+    <td><button onclick="calcr22p1(); calcr22p2(); calcr22p3(); calcr22p4(); calcr22p5(); calcr22p6()" class="s">Submit</button></td>
+</tr>
+<tr>
+    <th>10</th>
+    <td><input type="number" required id="gp1r23" class="g"></td>
+    <td><input type="number" required id="pp1r23" class="p"></td>
+    <td><input type="number" required id="rp1r23" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r23" class="g"></td>
+    <td><input type="number" required id="pp2r23" class="p"></td>
+    <td><input type="number" required id="rp2r23" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r23" class="g"></td>
+    <td><input type="number" required id="pp3r23" class="p"></td>
+    <td><input type="number" required id="rp3r23" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r23" class="g"></td>
+    <td><input type="number" required id="pp4r23" class="p"></td>
+    <td><input type="number" required id="rp4r23" class="r" value="0"></td>
+    <td><button onclick="calcr23p1(); calcr23p2(); calcr23p3(); calcr23p4(); calcr23p5(); calcr23p6()" class="s">Submit</button></td>
+</tr>
+
+
+<tr>
+    <th>8</th>
+    <td><input type="number" required id="gp1r10" class="g"></td>
+    <td><input type="number" required id="pp1r10" class="p"></td>
+    <td><input type="number" required id="rp1r10" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r10" class="g"></td>
+    <td><input type="number" required id="pp2r10" class="p"></td>
+    <td><input type="number" required id="rp2r10" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r10" class="g"></td>
+    <td><input type="number" required id="pp3r10" class="p"></td>
+    <td><input type="number" required id="rp3r10" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r10" class="g"></td>
+    <td><input type="number" required id="pp4r10" class="p"></td>
+    <td><input type="number" required id="rp4r10" class="r" value="0"></td>
+    <td><button onclick="calcr10p1(); calcr10p2(); calcr10p3(); calcr10p4(); calcr10p5(); calcr10p6()" class="s">Submit</button></td>
+</tr>
+
+<tr>
+    <th>6</th>
+    <td><input type="number" required id="gp1r12" class="g"></td>
+    <td><input type="number" required id="pp1r12" class="p"></td>
+    <td><input type="number" required id="rp1r12" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r12" class="g"></td>
+    <td><input type="number" required id="pp2r12" class="p"></td>
+    <td><input type="number" required id="rp2r12" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r12" class="g"></td>
+    <td><input type="number" required id="pp3r12" class="p"></td>
+    <td><input type="number" required id="rp3r12" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r12" class="g"></td>
+    <td><input type="number" required id="pp4r12" class="p"></td>
+    <td><input type="number" required id="rp4r12" class="r" value="0"></td>
+    <td><button onclick="calcr12p1(); calcr12p2(); calcr12p3(); calcr12p4(); calcr12p5(); calcr12p6()" class="s">Submit</button></td>
+</tr>
+
+<tr>
+    <th>4</th>
+    <td><input type="number" required id="gp1r14" class="g"></td>
+    <td><input type="number" required id="pp1r14" class="p"></td>
+    <td><input type="number" required id="rp1r14" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r14" class="g"></td>
+    <td><input type="number" required id="pp2r14" class="p"></td>
+    <td><input type="number" required id="rp2r14" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r14" class="g"></td>
+    <td><input type="number" required id="pp3r14" class="p"></td>
+    <td><input type="number" required id="rp3r14" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r14" class="g"></td>
+    <td><input type="number" required id="pp4r14" class="p"></td>
+    <td><input type="number" required id="rp4r14" class="r" value="0"></td>
+    <td><button onclick="calcr14p1(); calcr14p2(); calcr14p3(); calcr14p4(); calcr14p5(); calcr14p6()" class="s">Submit</button></td>
+</tr>
+
+<tr>
+    <th>2</th>
+    <td><input type="number" required id="gp1r16" class="g"></td>
+    <td><input type="number" required id="pp1r16" class="p"></td>
+    <td><input type="number" required id="rp1r16" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r16" class="g"></td>
+    <td><input type="number" required id="pp2r16" class="p"></td>
+    <td><input type="number" required id="rp2r16" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r16" class="g"></td>
+    <td><input type="number" required id="pp3r16" class="p"></td>
+    <td><input type="number" required id="rp3r16" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r16" class="g"></td>
+    <td><input type="number" required id="pp4r16" class="p"></td>
+    <td><input type="number" required id="rp4r16" class="r" value="0"></td>
+    <td><button onclick="calcr16p1(); calcr16p2(); calcr16p3(); calcr16p4(); calcr16p5(); calcr16p6()" class="s">Submit</button></td>
+</tr>
+
+<tr>
+    <th>10X</th>
+    <td><input type="number" required id="gp1r18" class="g"></td>
+    <td><input type="number" required id="pp1r18" class="p"></td>
+    <td><input type="number" required id="rp1r18" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r18" class="g"></td>
+    <td><input type="number" required id="pp2r18" class="p"></td>
+    <td><input type="number" required id="rp2r18" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r18" class="g"></td>
+    <td><input type="number" required id="pp3r18" class="p"></td>
+    <td><input type="number" required id="rp3r18" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r18" class="g"></td>
+    <td><input type="number" required id="pp4r18" class="p"></td>
+    <td><input type="number" required id="rp4r18" class="r" value="0"></td>
+    <td><button onclick="calcr18p1(); calcr18p2(); calcr18p3(); calcr18p4(); calcr18p5(); calcr18p6()" class="s">Submit</button></td>
+</tr>
+<tr>
+    <th>10 Blind</th>
+    <td><input type="number" required id="gp1r19" class="g"></td>
+    <td><input type="number" required id="pp1r19" class="p"></td>
+    <td><input type="number" required id="rp1r19" class="r" value="0"></td>
+    <td><input type="number" required id="gp2r19" class="g"></td>
+    <td><input type="number" required id="pp2r19" class="p"></td>
+    <td><input type="number" required id="rp2r19" class="r" value="0"></td>
+    <td><input type="number" required id="gp3r19" class="g"></td>
+    <td><input type="number" required id="pp3r19" class="p"></td>
+    <td><input type="number" required id="rp3r19" class="r" value="0"></td>
+    <td><input type="number" required id="gp4r19" class="g"></td>
+    <td><input type="number" required id="pp4r19" class="p"></td>
+    <td><input type="number" required id="rp4r19" class="r" value="0"></td>
+    <td><button onclick="calcr19p1(); calcr19p2(); calcr19p3(); calcr19p4(); calcr19p5(); calcr19p6()" class="s">Submit</button></td>
+</tr>
+<tr>
+    <th>TOTAL SCORES</th>
+    <td colspan="3"><p class="t"><span id="tp1">0</span></p></td>
+    <td colspan="3"><p class="t"><span id="tp2">0</span></p></td>
+    <td colspan="3"><p class="t"><span id="tp3">0</span></p></td>
+    <td colspan="3"><p class="t"><span id="tp4">0</span></p></td>
+    <td colspan="3"><button onclick="calctotal1(); calctotal2(); calctotal3(); calctotal4(); calctotal5(); calctotal6()" class="s">TOTAL</button></td>
+</tr>
+    </table>
+    <script src="script.js"></script>
+    
+</body>
+</html>
